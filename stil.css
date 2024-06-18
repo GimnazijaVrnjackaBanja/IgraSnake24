@@ -1,0 +1,46 @@
+body{
+  background-color: #111;
+  color: white;
+}
+.okvir{
+    background-color: #18005c;
+    height: 1000px;
+    color: white;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #0073d1;
+  }
+  .razmak {
+    margin: 5%;
+    padding: 10px;
+  }
